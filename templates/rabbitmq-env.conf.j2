@@ -1,5 +1,7 @@
 # {{ ansible_managed }}
+{% if rabbitmq_nodename_prefix != 'rabbit' %}
 NODENAME={{ rabbitmq_nodename_prefix }}@{{ rabbitmq_nodename }}
+{% endif %}
 {% for variable,value in rabbitmq_conf_env.items() %}
 {{ variable|upper() }}={{ value }}
 {% endfor %}
