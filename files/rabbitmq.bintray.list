@@ -1,4 +1,4 @@
-deb https://dl.bintray.com/rabbitmq-erlang/debian bionic main
-deb https://dl.bintray.com/rabbitmq-erlang/debian xenial main
+deb https://dl.bintray.com/rabbitmq-erlang/debian bionic erlang-23.x
+deb https://dl.bintray.com/rabbitmq-erlang/debian xenial erlang-23.x
 deb https://dl.bintray.com/rabbitmq/debian bionic main
 deb https://dl.bintray.com/rabbitmq/debian xenial main
